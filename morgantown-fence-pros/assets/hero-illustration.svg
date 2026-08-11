@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16302b"/>
+      <stop offset="1" stop-color="#1e3a34"/>
+    </linearGradient>
+    <symbol id="post" viewBox="0 0 22 170">
+      <rect x="4" y="10" width="14" height="160" fill="#F3EFE8" opacity=".92"/>
+      <rect x="0" y="0" width="22" height="12" fill="#B66A3C" opacity=".95"/>
+    </symbol>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="1330" cy="190" r="130" fill="#B66A3C" opacity=".16"/>
+  <path d="M0 620 C 260 520 520 560 800 600 C 1080 640 1340 560 1600 610 L1600 900 L0 900 Z" fill="#8FA79A" opacity=".22"/>
+  <path d="M0 690 C 300 630 620 700 940 660 C 1180 630 1400 690 1600 660 L1600 900 L0 900 Z" fill="#8FA79A" opacity=".32"/>
+  <circle cx="180" cy="240" r="3" fill="#B66A3C" opacity=".4"/>
+  <circle cx="520" cy="160" r="3" fill="#B66A3C" opacity=".4"/>
+  <circle cx="960" cy="300" r="3" fill="#F3EFE8" opacity=".3"/>
+  <circle cx="1460" cy="380" r="3" fill="#F3EFE8" opacity=".3"/>
+  <rect x="0" y="742" width="1600" height="10" fill="#F3EFE8" opacity=".55"/>
+  <rect x="0" y="812" width="1600" height="10" fill="#F3EFE8" opacity=".4"/>
+  <g>
+    <use href="#post" x="20" y="730" width="22" height="170"/>
+    <use href="#post" x="132" y="730" width="22" height="170"/>
+    <use href="#post" x="244" y="730" width="22" height="170"/>
+    <use href="#post" x="356" y="730" width="22" height="170"/>
+    <use href="#post" x="468" y="730" width="22" height="170"/>
+    <use href="#post" x="580" y="730" width="22" height="170"/>
+    <use href="#post" x="692" y="730" width="22" height="170"/>
+    <use href="#post" x="804" y="730" width="22" height="170"/>
+    <use href="#post" x="916" y="730" width="22" height="170"/>
+    <use href="#post" x="1028" y="730" width="22" height="170"/>
+    <use href="#post" x="1140" y="730" width="22" height="170"/>
+    <use href="#post" x="1252" y="730" width="22" height="170"/>
+    <use href="#post" x="1364" y="730" width="22" height="170"/>
+    <use href="#post" x="1476" y="730" width="22" height="170"/>
+    <use href="#post" x="1588" y="730" width="22" height="170"/>
+  </g>
+</svg>
