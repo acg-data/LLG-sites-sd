@@ -60,7 +60,7 @@ p { margin: 0 0 1.4rem; }
 .menu-bars { display: inline-flex; width: 24px; margin-left: 10px; flex-direction: column; gap: 4px; }
 .menu-bars i { width: 100%; height: 2px; background: currentColor; }
 
-.hero { position: relative; color: var(--white); background: var(--primary) url("assets/hero-skyline.svg") center / cover no-repeat; overflow: hidden; }
+.hero { position: relative; color: var(--white); background: var(--primary) url("assets/gallery/gallery-1.webp") center / cover no-repeat; overflow: hidden; }
 .hero-overlay { position: absolute; inset: 0; background: linear-gradient(100deg, rgba(8,17,25,.96) 0%, rgba(13,27,42,.88) 45%, rgba(13,27,42,.7) 100%); }
 .hero-grid { position: relative; padding: 76px 0; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(360px, .78fr); align-items: start; gap: 56px; }
 .badge-row { display: flex; flex-wrap: wrap; gap: 20px 26px; margin-bottom: 24px; }
