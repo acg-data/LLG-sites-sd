@@ -1,0 +1,14 @@
+const header=document.querySelector('.site-header');
+const menuButton=document.querySelector('.menu-toggle');
+const nav=document.querySelector('.nav-links');
+const updateHeader=()=>header?.classList.toggle('scrolled',window.scrollY>24);
+updateHeader();window.addEventListener('scroll',updateHeader,{passive:true});
+menuButton?.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(open));menuButton.textContent=open?'×':'☰'});
+nav?.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{nav.classList.remove('open');menuButton?.setAttribute('aria-expanded','false');if(menuButton)menuButton.textContent='☰'}));
+document.addEventListener('click',event=>{if(nav?.classList.contains('open')&&!event.target.closest('.nav-row')){nav.classList.remove('open');menuButton.setAttribute('aria-expanded','false');menuButton.textContent='☰'}});
+const revealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');revealObserver.unobserve(entry.target)}}),{threshold:.14});
+document.querySelectorAll('.reveal').forEach(element=>revealObserver.observe(element));
+const counters=document.querySelectorAll('[data-count]');
+const counterObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(!entry.isIntersecting)return;const el=entry.target;const target=Number(el.dataset.count);const suffix=el.dataset.suffix||'';const start=performance.now();const duration=1600;const tick=now=>{const progress=Math.min(1,(now-start)/duration);const eased=1-Math.pow(1-progress,3);el.textContent=Math.round(target*eased)+suffix;if(progress<1)requestAnimationFrame(tick)};requestAnimationFrame(tick);counterObserver.unobserve(el)}),{threshold:.45});
+counters.forEach(counter=>counterObserver.observe(counter));
+document.querySelectorAll('.email-form').forEach(form=>form.addEventListener('submit',event=>{event.preventDefault();const status=form.querySelector('.form-status');if(!form.reportValidity())return;const data=new FormData(form);const name=String(data.get('name')||'').trim();const lines=[`Name: ${name}`,`Email: ${data.get('email')||''}`,`Phone: ${data.get('phone')||''}`,`Desired service: ${data.get('service')||''}`,'',String(data.get('message')||'')];const subject=`Free Drainage Estimate — ${name}`;const mailto=`mailto:josh@greensborodrainguys.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lines.join('\n'))}`;if(status)status.textContent='Opening your email app…';window.location.href=mailto;}));

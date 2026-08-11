@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 116" role="img" aria-labelledby="title desc">
+  <title id="title">Pittsburgh French Drain</title>
+  <desc id="desc">P monogram with Pittsburgh French Drain wordmark</desc>
+  <defs><linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#00B4D8"/><stop offset="1" stop-color="#1E88E5"/></linearGradient></defs>
+  <g transform="translate(4 2)">
+    <path fill="#fff" d="M8 15h61c23 0 37 12 37 31 0 20-15 33-38 33H47V61h22c11 0 17-5 17-14 0-8-6-13-17-13H21L8 15Z"/>
+    <path fill="#fff" d="M24 43h44c12 0 19 5 19 13 0 8-7 13-19 13H47v39H24V43Z"/>
+    <path fill="url(#water)" d="M33 64h14v44H33zM52 76h13v32H52zM70 80h12v28H70z"/>
+  </g>
+  <g fill="#fff">
+    <text x="126" y="58" font-family="Teko, Arial Narrow, sans-serif" font-size="48" font-weight="700" letter-spacing="2">PITTSBURGH</text>
+    <path fill="#1E88E5" d="M127 72h48v3h-48zM407 72h45v3h-45z"/>
+    <text x="184" y="80" fill="#1E88E5" font-family="Archivo Narrow, Arial Narrow, sans-serif" font-size="16" font-weight="700" letter-spacing="7">FRENCH DRAIN</text>
+  </g>
+</svg>
