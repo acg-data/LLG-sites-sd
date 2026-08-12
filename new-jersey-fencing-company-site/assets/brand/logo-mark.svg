@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 184" role="img" aria-labelledby="title desc">
+  <title id="title">New Jersey Fencing Company shield</title>
+  <desc id="desc">A navy fence within a gold and navy shield.</desc>
+  <path d="M80 5C58 20 34 29 13 34v54c0 42 22 72 67 91 45-19 67-49 67-91V34C126 29 102 20 80 5Z" fill="#0D1B2A"/>
+  <path d="M80 14C60 27 39 35 22 39v49c0 35 18 61 58 79 40-18 58-44 58-79V39c-17-4-38-12-58-25Z" fill="#C19A4B"/>
+  <path d="M80 21C62 33 43 40 29 44v44c0 30 15 53 51 70 36-17 51-40 51-70V44c-14-4-33-11-51-23Z" fill="#F2F2F2"/>
+  <g fill="#0D1B2A">
+    <path d="M40 68h7v65h-7zM113 68h7v65h-7z"/>
+    <path d="m43.5 54 7 12h-14zM116.5 54l7 12h-14z"/>
+    <path d="M47 78h66v7H47zM47 119h66v7H47z"/>
+    <path d="M55 77h6v48h-6zM69 70h6v55h-6zM85 70h6v55h-6zM99 77h6v48h-6z"/>
+    <path d="m58 66 7 12H51zm14-8 7 12H65zm16 0 7 12H81zm14 8 7 12H95z"/>
+  </g>
+  <path d="M30 139c34-8 66-8 100 0" fill="none" stroke="#0D1B2A" stroke-width="5" stroke-linecap="round"/>
+</svg>
