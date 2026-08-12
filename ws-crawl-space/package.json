@@ -1,0 +1,8 @@
+{
+  "name": "ws-crawl-space-html",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}
