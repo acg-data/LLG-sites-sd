@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Charlotte Crawl Space | Healthier Spaces. Stronger Homes.</title>
+  <meta name="description" content="Charlotte Crawl Space helps Charlotte homeowners document crawlspace conditions and organize practical project options around access, moisture, drainage, and the expected result.">
+  <meta name="theme-color" content="#1f2d36">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&family=Great+Vibes&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="charlotte.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a class="logo" href="index.html" aria-label="Charlotte Crawl Space home">
+        <img src="assets/brandmark.svg" alt="Charlotte Crawl Space">
+      </a>
+      <div class="mobile-menu-toggle"><button id="hamburger-btn" aria-label="Open menu" aria-expanded="false"><span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span></button></div>
+      <div class="nav-container" id="site-nav">
+        <nav aria-label="Primary navigation">
+          <ul>
+            <li class="dropdown"><a href="#options" class="dropdown-toggle">Options <span aria-hidden="true">⌄</span></a><ul class="dropdown-menu"><li><a href="#encapsulation">Crawlspace Encapsulation</a></li><li><a href="#drainage">Crawlspace Drainage</a></li><li><a href="#moisture">Moisture Control</a></li><li><a href="#dehumidifier">Dehumidifier Solutions</a></li></ul></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="service-areas.html">Service Area</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="btn-become-owner" href="#request-service">Request Service</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <div class="trust-badges"><div class="badge"><span class="badge-icon">✓</span><span>Serving Charlotte</span></div><div class="badge"><span class="badge-icon">★</span><span>5/5 Customer Rated</span></div></div>
+          <p class="eyebrow">Healthier spaces. Stronger homes.</p>
+          <h1>Stop guessing about your crawlspace project</h1>
+          <p class="hero-description">Begin with a review of the property, the visible symptoms, and the improvements you are trying to make.</p>
+          <p class="hero-description">The assessment organizes possible solutions around access, condition, maintenance, and the expected result.</p>
+          <div class="service-buttons"><a class="service-button" href="#options"><span>◆</span> Explore options</a><a class="service-button" href="#process"><span>◆</span> View our process</a></div>
+        </div>
+        <div class="form-container" id="request-service">
+          <div class="form-header"><h2>Request <span class="highlight">Service</span></h2><h3>Get project information</h3></div>
+          <form id="estimate-form">
+            <div class="form-row"><input name="firstName" autocomplete="given-name" placeholder="First name" required><input name="lastName" autocomplete="family-name" placeholder="Last name" required></div>
+            <div class="form-row"><input type="tel" name="phone" autocomplete="tel" placeholder="Phone" required><input type="email" name="email" autocomplete="email" placeholder="Email" required></div>
+            <input name="zipCode" inputmode="numeric" autocomplete="postal-code" placeholder="ZIP code" required>
+            <select name="service" required><option value="" disabled selected>Select a service</option><option>Crawlspace Encapsulation</option><option>Crawlspace Drainage</option><option>Crawlspace Moisture Control</option><option>Crawlspace Dehumidifier Solutions</option></select>
+            <textarea name="message" rows="3" placeholder="What is happening?"></textarea>
+            <label class="consent"><input type="checkbox" name="consent"><span>By checking this box, I agree to receive service-related calls and text messages at the number provided. Consent is optional and is not a condition of purchase. Message and data rates may apply. Reply STOP to opt out.</span></label>
+            <button class="submit-button" type="submit">Request Service</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+          <div class="rating-badges"><div class="rating-badge"><div class="stars">★★★★★</div><span>Charlotte customer reviews</span></div><div class="rating-badge"><strong>300,000+</strong><span>crawlspace installed</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="warranty-section">
+      <div class="container">
+        <div class="warranty-mark" aria-hidden="true">CCS</div>
+        <div class="warranty-content"><p class="script-accent">Your next step</p><h2>The next step for your property</h2><h3>Request an assessment when you are ready to document the project details.</h3></div>
+        <div class="warranty-seal"><strong>100%</strong><span>Charlotte<br>customer reviews</span></div>
+      </div>
+    </section>
+
+    <section id="options" class="locations-section">
+      <div class="container">
+        <div class="section-header"><p class="eyebrow dark">Crawlspace services</p><h2>Options organized around the problem</h2><p>Compare the practical choices before materials, schedule, or pricing are finalized.</p></div>
+        <div class="locations-grid">
+          <article class="location-card" id="encapsulation"><div class="location-image service-one"><span class="service-tag">Option 01</span></div><h3>Crawlspace Encapsulation</h3><p>Explore the project details and expected result during your property assessment.</p><a class="location-button" href="#request-service">Request information</a></article>
+          <article class="location-card" id="drainage"><div class="location-image service-two"><span class="service-tag">Option 02</span></div><h3>Crawlspace Drainage</h3><p>Review visible symptoms, site conditions, and practical drainage choices.</p><a class="location-button" href="#request-service">Request information</a></article>
+          <article class="location-card" id="moisture"><div class="location-image service-three"><span class="service-tag">Option 03</span></div><h3>Crawlspace Moisture Control</h3><p>Organize possible solutions around access, condition, and maintenance.</p><a class="location-button" href="#request-service">Request information</a></article>
+          <article class="location-card" id="dehumidifier"><div class="location-image service-four"><span class="service-tag">Option 04</span></div><h3>Dehumidifier Solutions</h3><p>Document the property conditions and the improvements you are trying to make.</p><a class="location-button" href="#request-service">Request information</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="system-section">
+      <div class="container">
+        <div class="section-header"><p class="eyebrow dark">Project approach</p><h2>A clear project process</h2><p>Clear written recommendations make it easier to compare options before materials, schedule, or pricing are finalized.</p></div>
+        <div class="system-cards">
+          <article class="system-card"><div class="system-icon"><span>1</span><strong>01</strong></div><h3>Listen</h3><p>Start with what you are seeing, when it happens, and what outcome matters most.</p><ul class="system-features"><li><b>✓</b> Visible symptoms</li><li><b>✓</b> Property priorities</li><li><b>✓</b> Expected result</li></ul><div class="system-badge"><span>Project details</span></div></article>
+          <article class="system-card"><div class="system-icon"><span>2</span><strong>02</strong></div><h3>Assess</h3><p>Review the relevant property conditions before recommending work.</p><ul class="system-features"><li><b>✓</b> Access and condition</li><li><b>✓</b> Moisture and drainage</li><li><b>✓</b> Maintenance needs</li></ul><div class="system-badge"><span>Property review</span></div></article>
+          <article class="system-card"><div class="system-icon"><span>3</span><strong>03</strong></div><h3>Explain</h3><p>Present the proposed scope in plain language with clear next steps.</p><ul class="system-features"><li><b>✓</b> Practical choices</li><li><b>✓</b> Written recommendations</li><li><b>✓</b> Clear next steps</li></ul><div class="system-badge highlight-badge"><span>Plain-language scope</span></div></article>
+        </div>
+        <div class="system-cta"><p><strong>Confirm:</strong> Finalize scheduling only after the serving provider and project details are confirmed.</p><a class="system-button" href="#request-service">Get project information</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo"><img src="assets/brandmark.svg" alt="Charlotte Crawl Space"><p>Healthier spaces. Stronger homes.</p></div>
+        <div class="footer-links"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="#options">Options</a></li><li><a href="#process">Process</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div class="footer-locations"><h4>Service Options</h4><ul><li><a href="#encapsulation">Encapsulation</a></li><li><a href="#drainage">Drainage</a></li><li><a href="#moisture">Moisture Control</a></li><li><a href="#dehumidifier">Dehumidifier Solutions</a></li></ul></div>
+        <div class="footer-contact"><h4>Contact Us</h4><p><a href="tel:+17042884170">704-288-4170</a></p><p>Charlotte, NC</p><a class="footer-cta" href="contact.html">Request Service</a></div>
+      </div>
+      <div class="footer-bottom"><p>© 2026 Charlotte Crawl Space. All rights reserved.</p></div>
+    </div>
+  </footer>
+  <script src="site.js"></script>
+</body>
+</html>

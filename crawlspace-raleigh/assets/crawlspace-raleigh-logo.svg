@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 190" role="img" aria-labelledby="title desc">
+  <title id="title">Crawlspace Raleigh</title>
+  <desc id="desc">A house and crawlspace icon with the Crawlspace Raleigh wordmark.</desc>
+  <g fill="none" stroke="#1E2E28" stroke-width="15" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M22 104V74L112 12l90 62v90"/>
+    <path d="M22 110v54h180v-54"/>
+    <path d="M72 164V93h80v71"/>
+    <path d="M82 109h60M82 124h60M82 139h60" stroke-width="8"/>
+    <path d="M72 143l80 21M152 143l-80 21" stroke-width="7"/>
+  </g>
+  <path d="M22 126l50 38H22zm180 0l-50 38h50z" fill="#6F8A5B"/>
+  <text x="244" y="105" fill="#1E2E28" font-family="'Arial Narrow',Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="10">CRAWLSPACE</text>
+  <path d="M248 136h112M635 136h101" stroke="#6F8A5B" stroke-width="4"/>
+  <text x="385" y="149" fill="#6F8A5B" font-family="Arial,sans-serif" font-size="30" font-weight="600" letter-spacing="16">RALEIGH</text>
+  <text x="250" y="183" fill="#2A2A2A" font-family="Arial,sans-serif" font-size="16" letter-spacing="3">STRONGER FOUNDATIONS. HEALTHIER HOMES.</text>
+</svg>

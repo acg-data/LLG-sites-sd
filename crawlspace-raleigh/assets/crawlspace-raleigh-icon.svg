@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Crawlspace Raleigh icon">
+  <rect width="220" height="220" rx="42" fill="#1E2E28"/>
+  <g transform="translate(24 25)" fill="none" stroke="#F7F4ED" stroke-width="12" stroke-linejoin="miter">
+    <path d="M5 83V58L86 4l81 54v107H5V83"/>
+    <path d="M49 165V88h74v77"/>
+    <path d="M58 104h56M58 119h56M58 134h56" stroke-width="7"/>
+    <path d="M49 142l74 23M123 142l-74 23" stroke-width="6"/>
+  </g>
+  <path d="M29 143l44 47H29zm162 0l-44 47h44z" fill="#6F8A5B"/>
+</svg>
