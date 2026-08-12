@@ -173,7 +173,7 @@ p { margin: 0 0 1.4rem; }
 .city-grid a:hover { color: var(--accent); }
 
 .difference { position: relative; padding: 96px 0; color: var(--primary); background: var(--accent); overflow: hidden; }
-.difference .kicker-line.dark { color: var(--primary); }
+.difference .kicker-line.dark { display: inline-flex; padding: 7px 17px; color: var(--white); background: var(--primary); border-radius: 4px; font-size: .76rem; }
 .difference::before { content: ""; position: absolute; inset: auto -8% -75% 34%; height: 150%; border: 2px solid rgba(30,58,52,.16); border-radius: 50%; box-shadow: 0 0 0 32px rgba(30,58,52,.05), 0 0 0 68px rgba(30,58,52,.04), 0 0 0 108px rgba(30,58,52,.03); }
 .difference .shell { position: relative; }
 .trust-strip { margin-bottom: 65px; display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid rgba(30,58,52,.25); }
