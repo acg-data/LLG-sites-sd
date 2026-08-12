@@ -1,0 +1,7 @@
+{
+  "name": "cleveland-fence-pros-static-site",
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}
