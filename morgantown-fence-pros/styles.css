@@ -172,12 +172,12 @@ p { margin: 0 0 1.4rem; }
 .city-grid a { padding: 10px 2px; color: rgba(255,255,255,.78); border-bottom: 1px solid rgba(255,255,255,.12); font-size: .86rem; font-weight: 700; }
 .city-grid a:hover { color: var(--accent); }
 
-.difference { position: relative; padding: 96px 0; color: var(--primary); background: var(--accent); overflow: hidden; }
+.difference { position: relative; padding: 96px 0; color: var(--white); background: var(--accent); overflow: hidden; }
 .difference .kicker-line.dark { display: inline-flex; padding: 7px 17px; color: var(--white); background: var(--primary); border-radius: 4px; font-size: .76rem; }
 .difference::before { content: ""; position: absolute; inset: auto -8% -75% 34%; height: 150%; border: 2px solid rgba(30,58,52,.16); border-radius: 50%; box-shadow: 0 0 0 32px rgba(30,58,52,.05), 0 0 0 68px rgba(30,58,52,.04), 0 0 0 108px rgba(30,58,52,.03); }
 .difference .shell { position: relative; }
-.trust-strip { margin-bottom: 65px; display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid rgba(30,58,52,.25); }
-.trust-strip > div { min-height: 90px; padding: 20px; display: flex; align-items: center; justify-content: center; gap: 14px; border-right: 1px solid rgba(30,58,52,.25); }
+.trust-strip { margin-bottom: 65px; display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid rgba(255,255,255,.4); }
+.trust-strip > div { min-height: 90px; padding: 20px; display: flex; align-items: center; justify-content: center; gap: 14px; border-right: 1px solid rgba(255,255,255,.4); }
 .trust-strip > div:last-child { border-right: 0; }
 .trust-strip span { width: 36px; height: 36px; display: grid; place-items: center; color: var(--accent); background: var(--primary); border-radius: 50%; }
 .difference-copy { max-width: 820px; }
@@ -305,7 +305,7 @@ p { margin: 0 0 1.4rem; }
   .location-column { padding: 26px 20px; }
   .city-grid { grid-template-columns: 1fr; }
   .trust-strip { grid-template-columns: 1fr; }
-  .trust-strip > div { justify-content: flex-start; border-right: 0; border-bottom: 1px solid rgba(30,58,52,.25); }
+  .trust-strip > div { justify-content: flex-start; border-right: 0; border-bottom: 1px solid rgba(255,255,255,.4); }
   .trust-strip > div:last-child { border-bottom: 0; }
   .difference-copy p:not(.kicker-line) { font-size: 1rem; }
   .closing-panel { padding: 62px 22px; }
